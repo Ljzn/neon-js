@@ -18,9 +18,6 @@ async function claim(claimingPrivateKey) {
 
     const network = "MainNet";
 
-    console.log("\n\n--- Private Key ---")
-    console.log(claimingPrivateKey)
-
     /**
     ## Selecting the API provider and network
     Like in `sendAsset`, we establish the network we are interacting with through the selection of a API provider.
